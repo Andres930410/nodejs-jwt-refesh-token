@@ -1,0 +1,39 @@
+{
+  "name": "jwt-refresh-token",
+  "version": "1.0.0",
+  "description": "Example of implementing jwt authentication with refresh token and reddis",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andres930410/nodejs-jwt-refesh-token.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jwt",
+    "refresh-token",
+    "reddis"
+  ],
+  "author": "Andres Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andres930410/nodejs-jwt-refesh-token/issues"
+  },
+  "homepage": "https://github.com/Andres930410/nodejs-jwt-refesh-token#readme",
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "cors": "2.8.5",
+    "express": "4.17.2",
+    "helmet": "5.0.1",
+    "jsonwebtoken": "8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  }
+}
